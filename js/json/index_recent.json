@@ -1,0 +1,93 @@
+[
+    {
+        "date":"22",
+        "month":"Nov",
+        "title1":"Coming Soon",
+        "link1":"Coming Soon",
+        "content1":"Details soon Details soon Details soon Details soon Details soon",
+        "title2":"Coming Soon",
+        "link2":"Coming Soon",
+        "content2":"Details soon Details soon Details soon Details soon Details soon",
+        "title3":"Coming Soon",
+        "link3":"Coming Soon",
+        "content3":"Details soon Details soon Details soon Details soon Details soon"
+    },
+    {
+        "date":"23",
+        "month":"Nov",
+        "title1":"Coming Soon",
+        "link1":"http://127.0.0.1:5500/gallery.html",
+        "content1":"Details soon Details soon Details soon Details soon Details soon",
+        "title2":"Coming Soon t",
+        "link2":"http://google.com",
+        "content2":"Details soon Details soon Details soon Details soon Details soon",
+        "title3":"Coming Soon t",
+        "link3":"Coming Soon",
+        "content3":"Details soon Details soon Details soon"
+    },
+    {
+        "date":"24",
+        "month":"Nov",
+        "title1":"Coming Soon",
+        "link1":"Coming Soon",
+        "content1":"Details soon Details soon Details soon Details soon Details soon",
+        "title2":"Coming Soon",
+        "link2":"Coming Soon",
+        "content2":"Details soon",
+        "title3":"Coming Soon",
+        "link3":"Coming Soon",
+        "content3":"Details soon"
+    },
+    {
+        "date":"25",
+        "month":"Nov",
+        "title1":"Coming Soon",
+        "link1":"Coming Soon",
+        "content1":"Details soon",
+        "title2":"Coming Soon",
+        "link2":"Coming Soon",
+        "content2":"Details soon",
+        "title3":"Coming Soon",
+        "link3":"Coming Soon",
+        "content3":"Details soon"
+    },
+    {
+        "date":"26",
+        "month":"Nov",
+        "title1":"Coming Soon",
+        "link1":"Coming Soon",
+        "content1":"Details soon",
+        "title2":"Coming Soon",
+        "link2":"Coming Soon",
+        "content2":"Details soon",
+        "title3":"Coming Soon",
+        "link3":"Coming Soon",
+        "content3":"Details soon"
+    },
+    {
+        "date":"27",
+        "month":"Nov",
+        "title1":"Coming Soon",
+        "link1":"Coming Soon",
+        "content1":"Details soon",
+        "title2":"Coming Soon",
+        "link2":"Coming Soon",
+        "content2":"Details soon",
+        "title3":"Coming Soon",
+        "link3":"Coming Soon",
+        "content3":"Details soon"
+    },
+    {
+        "date":"28",
+        "month":"Nov",
+        "title1":"Coming Soon",
+        "link1":"Coming Soon",
+        "content1":"Details soon",
+        "title2":"Coming Soon",
+        "link2":"Coming Soon",
+        "content2":"Details soon",
+        "title3":"Coming Soon",
+        "link3":"Coming Soon",
+        "content3":"Details soon"
+    }
+]
