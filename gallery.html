@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+		
+		<title>EventGrande</title>
+
+		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900" rel="stylesheet" type="text/css">
+		<link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="style.css">
+		
+	</head>
+
+	<body>
+		
+		<div id="site-content">
+			<header class="site-header">
+				<div class="container">
+					<a href="index.html" id="branding">						
+						<h2 class="site-description">EventGrande</h2>
+					</a> 
+					
+					<nav class="main-navigation">
+						<button type="button" class="toggle-menu"><i class="fa fa-bars"></i></button>
+						<ul class="menu">
+							<li class="menu-item"><a href="index.html">Home</a></li>
+							<li class="menu-item"><a href="about.html">Book Event</a></li>
+							<li class="menu-item current-menu-item"><a href="gallery.html">All Events</a></li>
+							<li class="menu-item"><a href="blog.html">Post</a></li>
+							<li class="menu-item"><a href="login.html">Login</a></li>
+						</ul> 
+					</nav> 
+					<div class="mobile-menu"></div>
+				</div>
+			</header> <!-- .site-header -->
+			
+			<main class="main-content">
+				<div class="fullwidth-block gallery">
+					<div class="container">
+						<div class="content fullwidth">
+							<h2 class="entry-title">Gallery</h2>
+							<div class="filter-links filterable-nav">
+								<select class="mobile-filter">
+									<option value="*">Show all</option>
+									<option value=".outdoor">Outdoor</option>
+									<option value=".indoor">Indoor</option>
+									<!-- <option value=".Bat">Bat</option>
+									<option value=".Ball">Ball</option> -->
+								</select>
+								<a href="#" class="current" data-filter="*">Show all</a>
+								<a href="#" data-filter=".outdoor">Outdoor</a>
+								<a href="#" data-filter=".indoor">Indoor</a>
+								<!-- <a href="#" data-filter=".Bat">Bat</a>
+								<a href="#" data-filter=".Bat">Ball</a> -->
+							</div>
+							<div class="filterable-items">
+								<div class="filterable-item outdoor indoor">
+									<a href="dummy\Sports\download.jpg"><figure><img src="dummy\Sports\download.jpg" alt="gallery 1"></figure></a>
+								</div>
+								<div class="filterable-item outdoor">
+									<a href="dummy\Sports\images.jpg"><figure><img src="dummy\Sports\images.jpg" alt="gallery 2"></figure></a>
+								</div>
+								<div class="filterable-item Bat indoor">
+									<a href="dummy\Sports\images (3).jpg"><figure><img src="dummy\Sports\images (3).jpg" alt="gallery 3"></figure></a>
+								</div>
+								<div class="filterable-item outdoor">
+									<a href="dummy\Sports\images (1).jpg"><figure><img src="dummy\Sports\images (1).jpg" alt="gallery 4"></figure></a>
+								</div>
+								<div class="filterable-item Bat">
+									<a href="dummy\Sports\images (2).jpg"><figure><img src="dummy\Sports\images (2).jpg" alt="gallery 5"></figure></a>
+								</div>
+								<div class="filterable-item Bat">
+									<a href="dummy\Sports\download (2).jpg"><figure><img src="dummy\Sports\download (2).jpg" alt="gallery 6"></figure></a>
+								</div>
+								<div class="filterable-item outdoor">
+									<a href="dummy\Sports\download (1).jpg"><figure><img src="dummy\Sports\download (1).jpg" alt="gallery 7"></figure></a>
+								</div>
+								<div class="filterable-item band">
+									<a href="dummy\Sports\download (3).jpg"><figure><img src="dummy\Sports\download (3).jpg" alt="gallery 8"></figure></a>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+				</div> <!-- .testimonial-section -->
+
+				
+			</main> <!-- .main-content -->
+		</div> <!-- #site-content -->
+
+		<script src="js/jquery-1.11.1.min.js"></script>		
+		<script src="js/plugins.js"></script>
+		<script src="js/app.js"></script>
+		
+	</body>
+
+</html>

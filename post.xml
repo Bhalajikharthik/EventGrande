@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<!DOCTYPE post_all SYSTEM "post.dtd">
+<post_all>
+	<post>
+		<date> 
+			<month> September</month>
+			<day> 08</day>
+			<year> 2022</year>
+		</date>
+		<title> World Cup Announced! </title>
+		<link> http://linkhere.com </link>
+		<content type="text"> The dates for the upcoming 2023 world cup has been released</content>
+	</post>
+</post_all>

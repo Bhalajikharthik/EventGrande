@@ -1,0 +1,14 @@
+<!ELEMENT post_all (post+)>
+<!ELEMENT post (date+,title,link,content)>
+<!ELEMENT date (month,day,year)>
+<!ELEMENT day (#PCDATA)>
+<!ELEMENT month (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT link (#PCDATA)>
+<!ELEMENT content (#PCDATA)>
+<!ATTLIST content type CDATA "long_text">
+<!ATTLIST content type CDATA "video">
+<!ATTLIST content type CDATA "image">
+<!ATTLIST content type CDATA "short_text">
+

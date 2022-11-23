@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+		
+		<title>EventGrande</title>
+
+		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900" rel="stylesheet" type="text/css">
+		<link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="style.css">
+		
+	</head>
+
+	<body class="header-collapse">
+		
+		<div id="site-content">
+			<header class="site-header">
+				<div class="container">
+					<a href="index.html" id="branding">						
+						<h2 class="site-description">EventGrande</h2>
+					</a> 					
+					<nav class="main-navigation">
+						<button type="button" class="toggle-menu"><i class="fa fa-bars"></i></button>
+						<ul class="menu">
+							<li class="menu-item current-menu-item"><a href="index.html">Home</a></li>
+							<li class="menu-item"><a href="about.html">Book Event</a></li>
+							<li class="menu-item"><a href="gallery.html">All Events</a></li>
+							<li class="menu-item"><a href="blog.html">Post</a></li>
+							<li class="menu-item"><a href="login.html">Login</a></li>
+						</ul> 
+					</nav> 
+					<div class="mobile-menu"></div>
+				</div>
+			</header> 
+			
+			<div class="hero">
+				<div class="slider">
+					<ul class="slides">
+						<li class="lazy-bg" style="background-image:url('dummy\slide-1.jpg') ;">
+							<div class="container">
+								<h2 class="slide-title" id="quote_title_1"></h2>
+								<h3 class="slide-subtitle" id="quote_subtitle_1"></h3>
+								<p class="slide-desc" id="quote_desc_1"></p>
+							</div>
+						</li>
+						<li class="lazy-bg" data-background="dummy\slide-2.jpg">
+							<div class="container">
+								<h2 class="slide-title" id="quote_title_2"></h2>
+								<h3 class="slide-subtitle" id="quote_subtitle_2"></h3>
+								<p class="slide-desc" id="quote_desc_2"></p>
+							</div>
+						</li>
+						<li class="lazy-bg" data-background="dummy\slide-3.jpg">
+							<div class="container">
+								<h2 class="slide-title" id="quote_title_3"></h2>
+								<h3 class="slide-subtitle" id="quote_subtitle_3"></h3>
+								<p class="slide-desc" id="quote_desc_3"></p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			
+			<main class="main-content">
+				<section class="fullwidth-block testimonial-section">
+					<div class="container">
+						<div class="quote-slider">
+							<ul class="slides">
+								<li>
+									<blockquote>
+										<p id="advice_title_1"></p>
+										<cite id="advice_author_1"></cite>
+										<span id="advice_author_sport1"></span>
+									</blockquote>
+								</li>
+								<li>
+									<blockquote>
+										<p id="advice_title_2"></p>
+										<cite id="advice_author_2"></cite>
+										<span id="advice_author_sport2"></span>
+									</blockquote>
+								</li>
+								<li>
+									<blockquote>
+										<p id="advice_title_3"></p>
+										<cite id="advice_author_3"></cite>
+										<span id="advice_author_sport3"></span>
+									</blockquote>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+
+				<div class="fullwidth-block upcoming-event-section" data-bg-color="#191919">
+					<section class="container">
+						<header class="section-header">
+							<h2 class="section-title">Upcoming events</h2>
+
+							<div class="event-nav">
+								<a class="prev" id="event-prev" href="#"><i class="fa fa-caret-left"></i> </a>
+	    						<a class="next" id="event-next" href="#"> <i class="fa fa-caret-right"></i></a>
+							</div> 
+
+						</header> 
+						<div class="event-carousel">
+							
+							<div class="event">
+								<div class="entry-date">
+									<div class="date" id="event_date_1">28</div>
+									<span class="month" id="event_month_1">July</span>
+								</div>
+								<h2 class="entry-title" id="event_title_11"><a id="event_link_11" href="#"></a></h2>
+								<p id="event_content_11"></p>
+								<h2 class="entry-title" id="event_title_12"><a id="event_link_12" href="#"></a></h2>
+								<p id="event_content_12"></p>
+								<h2 class="entry-title" id="event_title_13"><a id="event_link_13" href="#"></a></h2>
+								<p id="event_content_13"></p>
+							</div>
+							
+							
+							<div class="event">
+								<div class="entry-date">
+									<div class="date" id="event_date_2">28</div>
+									<span class="month" id="event_month_2">July</span>
+								</div>
+								<h2 class="entry-title" id="event_title_21"><a id="event_link_21" href="#"></a></h2>
+								<p id="event_content_21"></p>
+								<h2 class="entry-title" id="event_title_22"><a id="event_link_22" href="#"></a></h2>
+								<p id="event_content_22"></p>
+								<h2 class="entry-title" id="event_title_23"><a id="event_link_23" href="#"></a></h2>
+								<p id="event_content_23"></p>
+							</div>
+							
+							
+							<div class="event">
+								<div class="entry-date">
+									<div class="date" id="event_date_3">28</div>
+									<span class="month" id="event_month_3">July</span>
+								</div>
+								<h2 class="entry-title" id="event_title_31"><a id="event_link_31" href="#"></a></h2>
+								<p id="event_content_31"></p>
+								<h2 class="entry-title" id="event_title_32"><a id="event_link_32" href="#"></a></h2>
+								<p id="event_content_32"></p>
+								<h2 class="entry-title" id="event_title_33"><a id="event_link_33" href="#"></a></h2>
+								<p id="event_content_33"></p>
+							</div>
+							
+							
+							<div class="event">
+								<div class="entry-date">
+									<div class="date" id="event_date_4">28</div>
+									<span class="month" id="event_month_4">July</span>
+								</div>
+								<h2 class="entry-title" id="event_title_41"><a id="event_link_41" href="#"></a></h2>
+								<p id="event_content_41"></p>
+								<h2 class="entry-title" id="event_title_42"><a id="event_link_42" href="#"></a></h2>
+								<p id="event_content_42"></p>
+								<h2 class="entry-title" id="event_title_43"><a id="event_link_43" href="#"></a></h2>
+								<p id="event_content_43"></p>
+							</div>
+							
+							
+							<div class="event">
+								<div class="entry-date">
+									<div class="date" id="event_date_5">28</div>
+									<span class="month" id="event_month_5">July</span>
+								</div>
+								<h2 class="entry-title" id="event_title_51"><a id="event_link_51" href="#"></a></h2>
+								<p id="event_content_51"></p>
+								<h2 class="entry-title" id="event_title_52"><a id="event_link_52" href="#"></a></h2>
+								<p id="event_content_52"></p>
+								<h2 class="entry-title" id="event_title_53"><a id="event_link_53" href="#"></a></h2>
+								<p id="event_content_53"></p>
+							</div>
+							
+							
+							<div class="event">
+								<div class="entry-date">
+									<div class="date" id="event_date_6">28</div>
+									<span class="month" id="event_month_6">July</span>
+								</div>
+								<h2 class="entry-title" id="event_title_61"><a id="event_link_61" href="#"></a></h2>
+								<p id="event_content_61"></p>
+								<h2 class="entry-title" id="event_title_62"><a id="event_link_62" href="#"></a></h2>
+								<p id="event_content_62"></p>
+								<h2 class="entry-title" id="event_title_63"><a id="event_link_63" href="#"></a></h2>
+								<p id="event_content_63"></p>
+							</div>
+							
+						</div> 
+					</section> 
+				</div> 
+
+				<!-- <div class="fullwidth-block">
+					<section class="container">
+						<h2 class="section-title">Recents</h2>
+
+						<div class="row">
+							<div class="col-md-4">
+								<div class="feature">
+									<figure class="cut-corner">
+										<img src="" alt="" height="230">
+									</figure>
+									<h3 id="recent_title_1" class="feature-title">Latest updates will be here</h3>
+									<p id="recent_desc_1">A very breif explanation will be here.The Commonwealth Games, often referred to as the Friendly Games, is an international multi-sport event involving athletes from the Commonwealth of Nations. The event was first held in 1930, and, with the exception of 1942 and 1946, has taken place every four years since then. </p>
+								</div> 
+							</div>
+							<div class="col-md-4">
+								<div class="feature">
+									<figure class="cut-corner">
+										<img src="dummy/Band Name/recent2.jpg" alt="">
+									</figure>
+									<h3 id="recent_title_2" class="feature-title">Latest updates will be here</h3>
+									<p id="recent_desc_2">A very breif explanation will be here.The Commonwealth Games, often referred to as the Friendly Games, is an international multi-sport event involving athletes from the Commonwealth of Nations. The event was first held in 1930, and, with the exception of 1942 and 1946, has taken place every four years since then. </p>
+								</div> 
+							</div>
+							<div class="col-md-4">
+								<div class="feature">
+									<figure class="cut-corner">
+										<img src="dummy/Band Name/recent1.jpg" alt="">
+									</figure>
+									<h3 id="recent_title_3" class="feature-title">Latest updates will be here</h3>
+									<p id="recent_desc_3">A very breif explanation will be here.The Commonwealth Games, often referred to as the Friendly Games, is an international multi-sport event involving athletes from the Commonwealth of Nations. The event was first held in 1930, and, with the exception of 1942 and 1946, has taken place every four years since then. </p>
+								</div> 
+							</div>
+						</div>
+					</section>
+				</div>  -->
+			</main> 
+		</div>
+		<script src="js/index_content.js"></script>		
+		<script src="js/jquery-1.11.1.min.js"></script>		
+		<script src="js/plugins.js"></script>
+		<script src="js/app.js"></script>
+		
+	</body>
+
+</html>

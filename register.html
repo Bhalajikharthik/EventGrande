@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+
+    <title>All Sports</title>
+
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900" rel="stylesheet"
+        type="text/css">
+    <link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="startup.css">
+
+</head>
+
+<body class="header-collapse">
+    <div id="site-content">
+        <header class="site-header">
+            <div class="container">
+                <a href="index.html" id="branding">
+                    <h2 class="site-description">All Sports</h2>
+                </a>
+                <nav class="main-navigation">
+                    <button type="button" class="toggle-menu"><i class="fa fa-bars"></i></button>
+                    <ul class="menu">
+                        <li class="menu-item"><a href="index.html">Home</a></li>
+                        <li class="menu-item"><a href="about.html">Book Event</a></li>
+                        <li class="menu-item"><a href="gallery.html">All Sports</a></li>
+                        <li class="menu-item"><a href="blog.html">Write</a></li>
+                        <li class="menu-item current-menu-item"><a href="">Register</a></li>
+                    </ul>
+                </nav>
+                <div class="mobile-menu"></div>
+            </div>
+        </header>
+
+    </div>
+
+    <div id="main" class="main-container">
+        <div class="box">
+            <h2>Register</h2>
+            <form action="/registerform" method="post">
+                <div class="input-box">
+                    <input id="user-name" type="text" name="username" required>
+                    <label>Username</label>
+                </div>
+                <div class="input-box">
+                    <input id="user-email" type="text" name="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <input id="user-dob" type="date" name="dob" required>
+                    <label>DOB</label>
+                </div>
+            
+                <!-- <label>Gender</label>
+                <div class="flex-foot">                    
+                    <input type="radio" id="user-gender-male" name="1" value="Male">
+                    <label for="user-gender-male">Male</label><br>
+                    <input type="radio" id="user-gender-male" name="1" value="Female">
+                    <label for="user-gender-female">Female</label><br>
+                    <input type="radio" id="user-gender-other" name="1" value="Other">
+                    <label for="user-gender-other">Others</label><br>                   
+                </div> -->
+                <br>
+                <div class="center-button">
+                    <input id="submit" type="submit" name="" value="Register">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div id="logged-in">
+    </div>
+</body>
+
+</html>

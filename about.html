@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+		
+		<title>EventGrande</title>
+		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900" rel="stylesheet" type="text/css">
+		<link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="style.css">
+		<script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+		<script type="text/javascript">
+			function validateemail(){
+			var x=document.myform.email.value;  
+			var atposition=x.indexOf("@");  
+			var dotposition=x.lastIndexOf(".");  
+			if (atposition<1 || dotposition<atposition+2 || dotposition+2>=x.length){  
+  				alert("Please enter a valid e-mail address \n atpostion:"+atposition+"\n dotposition:"+dotposition);  
+  				return false;  
+  				}  
+			}  
+		</script>
+	</head>
+
+	<body>
+		
+		<div id="site-content">
+			<header class="site-header">
+				<div class="container">
+					<a href="index.html" id="branding">
+                        <h2 class="site-description">EventGrande</h2>
+                    </a>
+					
+					<nav class="main-navigation">
+						<button type="button" class="toggle-menu"><i class="fa fa-bars"></i></button>
+						<ul class="menu">
+							<li class="menu-item"><a href="index.html">Home</a></li>
+							<li class="menu-item current-menu-item"><a href="about.html">Book Event</a></li>
+							<li class="menu-item"><a href="gallery.html">All Events</a></li>
+							<li class="menu-item"><a href="blog.html">Post</a></li>
+							<li class="menu-item"><a href="login.html">Login</a></li>
+						</ul> <!-- .menu -->
+					</nav> <!-- .main-navigation -->
+					<div class="mobile-menu"></div>
+				</div>
+			</header> <!-- .site-header -->
+			
+			<main class="main-content">
+				<div class="fullwidth-block inner-content">
+					<div class="container">
+						<h2 class="page-title">Book your event</h2>
+						<div class="row">
+							<div class="col-md-6">
+								<form action="/sendFeedback" method="post" class="contact-form" name="myform" onsubmit="return validateemail()">
+                                    <div class="flex-center">
+									<input type="text" name="name" placeholder="Your name.." required>
+									<input type="email" name="email" placeholder="Email Address.." required>
+									<input type="tel" name="phone" placeholder="Phone..." required>
+									<input type="text" name="etype" placeholder="Event Type">
+									<input type="number" name="people" placeholder="Number of people attending event">
+									<input type="number" name="budget" placeholder="Budget(approx.)" min="40000">
+									<input type="text" name="location" placeholder="location">
+									<textarea name="details" placeholder="details for organizer" required></textarea>
+									<input type="submit" value="Send message" ></div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div> <!-- .testimonial-section -->
+
+				
+			</main> <!-- .main-content -->
+		</div> <!-- #site-content -->		
+	</body>
+
+</html>

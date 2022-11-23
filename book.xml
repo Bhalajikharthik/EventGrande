@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<!DOCTYPE book SYSTEM "book.dtd">
+<book>
+    <name>Bhalaji Kharthik</name>
+    <email>bhalajikharthik3004@gmail.com</email>
+    <phone>9585035446</phone>
+    <etype>College Event</etype>
+    <people>300</people>
+    <budget>80000</budget>
+    <location>Coimbatore</location>
+    <details type="text">sample description</details>
+</book>

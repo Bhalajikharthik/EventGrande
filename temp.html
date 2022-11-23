@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+
+	<title>EventGrande</title>
+
+	<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900" rel="stylesheet"
+		type="text/css">
+	<link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="blog.css">
+
+</head>
+
+<body>
+
+    
+<h3 class="widget-title">Create a Post</h3>
+									
+<div class="box" width="50%">
+    <form name="createform" action="/insertform" method="post" novalidate>
+        <div class="input-box">
+            <input id="user_post_title" type="text" name="title" required="" ng-model="pctrl.title">
+            <label>Title</label>
+            <span style = "color:rgb(195, 0, 255)" ng-show = "createform.title.$dirty && createform.title.$invalid">
+                <span ng-show = "createform.title.$error.required">Title is required</span>
+             </span>
+        </div>
+        <div class="input-box">
+            <input id="user-post-link" type="link" name="imglink" required="" ng-model="pctrl.img">
+            <label>Image source</label>
+            <span style = "color:rgb(195, 0, 255)" ng-show = "createform.imglink.$dirty && createform.imglink.$invalid">
+                <span ng-show = "createform.imglink.$error.required">Add an image !</span>
+             </span>
+        </div>
+        <div class="input-box">
+            <label>Content</label><br><br>
+            <textarea id="user-post-test" rows="15" cols="35"  name="content" required="" ng-model="pctrl.content" ng-minlength="20">
+            </textarea>	
+            <span style = "color:rgb(195, 0, 255)" ng-show = "createform.content.$dirty && createform.content.$invalid">
+                <span ng-show = "createform.content.$error.required">Need more content !</span>
+             </span>																						
+        </div>								
+        <div class="center-button">												
+            <button type="button" ng-click="show()">Preview </button>&nbsp;
+            <input id="submit" type="submit" name="" value="Post">
+        </div>
+    </form>
+</div>
+
+</body>
+</html> 

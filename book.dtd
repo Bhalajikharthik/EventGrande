@@ -1,0 +1,19 @@
+<!ELEMENT book (name,email,phone,etype,people,budget,location,details)>
+<!ELEMENT name (#PCDATA)>
+<!ATTLIST book name ID CDATA #REQUIRED>
+<!ELEMENT email (#PCDATA)>
+<!ATTLIST book email ID CDATA #REQUIRED>
+<!ELEMENT phone (#PCDATA)>
+<!ATTLIST book phone ID #REQUIRED>
+<!ELEMENT etype (#PCDATA)>
+<!ATTLIST book etype CDATA #REQUIRED>
+<!ELEMENT people (#PCDATA)>
+<!ATTLIST book people CDATA #REQUIRED>
+<!ELEMENT budget (#PCDATA)>
+<!ATTLIST book budget CDATA #REQUIRED>
+<!ELEMENT location (#PCDATA)>
+<!ATTLIST book location CDATA #REQUIRED>
+<!ELEMENT details (#PCDATA)>
+<!ATTLIST book details ID CDATA #REQUIRED>
+
+
